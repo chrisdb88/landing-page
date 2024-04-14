@@ -33,6 +33,10 @@ body {
 
 .third-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .fourth-section {
@@ -165,6 +169,18 @@ p {
 
 .image-subtext, .section-2-img {
     width: 150px;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.inspiring-subtext {
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: auto;
 }
 
 /* img {

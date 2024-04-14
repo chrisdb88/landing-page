@@ -241,8 +241,13 @@ p {
 
 .copyright-footer {
     flex: 1 1 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     margin: -12px -30%;
+    color: white;
+    font-size: 18px;
 }
 
 /* img {

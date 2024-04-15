@@ -23,7 +23,7 @@ body {
 }
 
 .first-section {
-    background-color: #1F2937;
+    background-color: #850606;
     color: white;
     
 }
@@ -116,23 +116,30 @@ p {
 }
 
 .top-container-2c1, #top-section-image {
+    width: 50%;
     flex: 1 1 50%;
     height: 60%;
 }
+
+#top-section-image {
+    object-fit: cover;
+}
+
 
 .blue-button-top {
     width: 25%;
     font-size: 12px;
     font-weight: 800;
     padding: 6px;
-    border: 0px;
+    border-width: 2px;
+    border-color: white;
     border-radius: 6px;
-    background-color: #3882F6;
+    background-color: #DC143C;
     color: white;
 }
 
 .header2-1 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 800;
     margin: 0;
     padding: 0;
@@ -161,7 +168,7 @@ p {
 .section-2-img {
     height: 150px;
     border-radius: 15px;
-    border: solid 2px #3882F6;
+    border: solid 2px #DC143C;
 }
 
 .image-subtext {
@@ -174,7 +181,7 @@ p {
 }
 
 .inspiring-quote {
-    font-size: 36px;
+    font-size: 34px;
     font-style: italic;
     color: #1F2937;
 }
@@ -197,7 +204,7 @@ p {
     display: flex;
     height: 40%;
     flex: 1 1 auto;
-    background-color: #3882F6;
+    background-color: #DC143C;
     color: white;
     border-radius: 15px;
 }
@@ -222,7 +229,7 @@ p {
 .blue-footer-button {
     border-width: 2px;
     border-color: white;
-    background-color: #3882F6;
+    background-color: #DC143C;
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
